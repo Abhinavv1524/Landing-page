@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#nav{
+    background-color: rgba(245,245,245,1);
+    /* background-color: rgba(255, 255, 255, 1); */
+    /* background-color: rgba(0, 192, 153, 1); */
+}
+
+#nav-bar{
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    margin: 10px 80px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+a:hover{
+    color: #102554;
+}
+
+/* signup starts here */
+
+#signup{
+    background-color: rgba(46, 46, 54, 1);
+    padding: 0px 300px;
+}
+.firstpart{
+    /* padding: 40px 20px; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.image{
+    margin: 40px 0px;
+}
+.text{
+    font-size: 50px;
+    padding: 0px 100px;
+    text-align: center; 
+    color: #fff;
+}
+.imageform{
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+    color: #fff;
+}
+label{
+    font-size: 20px;
+    text-align: left;
+}
+input{
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+select{
+    font-size: 20px;
+    width: 100%;
+}
+button{
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(0, 192, 153, 1);
+    margin: 20px;
+    height: 40px;
+    width: 100%;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+button:hover{
+    background-color:rgb(0, 176, 141); ;
+}
+.text2{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* section 2 starts here */
+
+#benefit{
+    height: 70vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(245,245,245,1) ;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height:50vh ;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+h4{
+    font-family: "Roboto", sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+}
+p{
+    font-size: 17px;
+    margin-top: 25px;
+}
+.benefitHeading{
+    margin: 20px 20px 0px;
+}
+.benefitPara{
+    /* margin: 20px 20px; */
+    text-align: center;
+    line-height: 25px;
+    font-weight: 100;
+}
+
+/* about section starts here */
+
+#about{
+    font-family: "Roboto", sans-serif;
+    padding: 50px ;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.aboutStory{
+    width: 35%;
+}
+
+h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    padding: 30px 0px;
+}
+.aboutStory p{
+    /* padding: 10px 0px; */
+    font-weight: 300;
+}
+
+/* partners sectipn start here */
+
+#partners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 200px;
+    background-color: rgba(0, 192, 153, 1);
+}
+
+.partnersText{
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.partnersImages{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.detailbox{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.d1 p{
+    margin-top: 5px;
+}
+.d2 p{
+    margin-top: 5px;
+}
+.d3 p{
+    margin-top: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: left; */
+}
+
+.container1{
+    height: 15vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+#connect{
+    color: #fff;
+    background-color: rgba(46, 46, 54, 1);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#connect button{
+    margin: 50px;
+    width: 15%;
+}
+
+/* footer start here  */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    align-items: center;
+    background-color: rgba(245,245,245,1);
+}
